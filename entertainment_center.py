@@ -2,7 +2,8 @@ import media
 import fresh_tomatoes
 
 
-# Initialize movies to be listed on the webpage
+# John Wick movie:
+# movie title, poster image, description and movie trailer
 john_wick = media.Movie(
     "John Wick",
     "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/John_Wick_TeaserPoster.jpg/220px-John_Wick_TeaserPoster.jpg",  # NOQA
@@ -10,7 +11,8 @@ john_wick = media.Movie(
     "https://www.youtube.com/watch?v=RllJtOw0USI"
     )
 
-
+# The Expendables movie:
+# movie title, poster image, description and movie trailer
 the_expendables = media.Movie(
     "The Expendables",
     "https://upload.wikimedia.org/wikipedia/en/7/76/Expendablesposter.jpg",  # NOQA
@@ -18,6 +20,8 @@ the_expendables = media.Movie(
     "https://www.youtube.com/watch?v=8KtYRALe-xo"
     )
 
+# IT movie:
+# movie title, poster image, description and movie trailer
 it_movie = media.Movie(
     "IT",
     "https://upload.wikimedia.org/wikipedia/en/5/5a/It_%282017%29_poster.jpg",  # NOQA
@@ -25,6 +29,8 @@ it_movie = media.Movie(
     "https://www.youtube.com/watch?v=hAUTdjf9rko"
     )
 
+# Kingsman 2 movie:
+# movie title, poster image, description and movie trailer
 kingsman_2 = media.Movie(
     "Kingsman: The Golden Circle",
     "https://upload.wikimedia.org/wikipedia/en/f/fb/Kingsman_The_Golden_Circle.png",  # NOQA
@@ -32,6 +38,8 @@ kingsman_2 = media.Movie(
     "https://www.youtube.com/watch?v=0fvqnGmr9S8"
     )
 
+# American Made movie:
+# movie title, poster image, description and movie trailer
 american_made = media.Movie(
     "American Made",
     "https://upload.wikimedia.org/wikipedia/en/c/ca/American_Made_%28film%29.jpg",  # NOQA
@@ -39,12 +47,15 @@ american_made = media.Movie(
     "https://www.youtube.com/watch?v=AEBIJRAkujM"
     )
 
+# Blade Runner 2049 movie:
+# movie title, poster image, description and movie trailer
 blade_runner_2049 = media.Movie(
     "Blade Runner 2049",
     "https://upload.wikimedia.org/wikipedia/en/2/27/Blade_Runner_2049_logo.png",  # NOQA
     "A detective is on the look out for replicated human beings",
     "https://www.youtube.com/watch?v=gCcx85zbxz4"
     )
+
 
 # Set the movies that will be passed in to the media file
 movies = [john_wick,
