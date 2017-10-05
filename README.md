@@ -1,5 +1,15 @@
-How to generate a Movie list website:
+# How to run the code
 
-1. Run the "entertainment_center.py" file
-2. Open the "fresh_tomatoes.html" file with any web browser you choose
+
+Requirements
+------------
+- must have Python 2x or 3x installed
+
+
+1. download the zip file or clone the repository
+2. extract zip file (if not cloned)
+3. double click "entertainment_center.py" file
+4. you should now have a generated file named "fresh_tomatoes.html"
+5. open "fresh_tomatoes.html" using a web browser
+6. enjoy watching movie trailers!
 
